@@ -1,97 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ecole d'ingénieur-e-s: Illaumenian Campus </title>
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="Tiles/Today/style.css">
+<link rel="stylesheet" type="text/css" href="Tiles/Music/style.css">
+<script src="Tiles/Today/Time.js"></script>
 </head>
+<body onload="startTime()">
 
-<body>
-
-    <div class="header">
-      <img class="image" src="img/svg/background.svg" width="80%" height="80%">
-        <div class="title">
-          <b style="font-size: 5vw; display: block;">ILLAUMENIAN</b>
-          <b style="font-size: 4vw; display: block;">Campus FR</b>
-        </div>
-    </div>
-
-<ul>
-  <li><a class="active" href="#home">Accueil</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Niveaux</a>
-    <div class="dropdown-content">
-      <a href="#">Seconde</a>
-      <a href="#">Première</a>
-      <a href="#">Terminales</a>
-    </div>
-  </li>
-  <li style="float:right"><a href="#news">Contact</a></li>
-</ul>
-
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
-  <h1>Scroll</h1>  
-  <h1>Scroll</h1>
+	<div class="grid-container">
+		
+		<div class="active today-tile">
+			<div>
+				<div id="clock"></div>
+				<div id="date"></div>
+			</div>
+		</div>
+		
+		<div class="active music-tile">
+			<div>
+				<img id="music-cover" src="Tiles/Music/Positions.jpeg">
+				
+				<div id="music-info">
+					<div id="music-title">Positions</div>
+					<div id="music-artist">Ariana Grande</div>
+				</div>
+			</div>
+		</div>
 
 
+</div>
 
-
-
-
-    <footer>
-      <div class="footer-right">
-
-      </div>
-
-      <div class="footer-left">
-      <div class="icon">
-
-          <a href="#" class="fa fa-instagram"></a>
-
-          <a href="#" class="fa fa-snapchat"></a>
-
-          <a href="#" class="fa fa-twitter"></a>
-
-      </div>
-            <div class="icon">
-          <a href="#" class="fa fa-youtube"></a>
-
-          <a href="#" class="fa fa-google"></a>
-
-          <a href="#" class="fa fa-linkedin"></a>
-
-      </div>
-      </div>
-    </footer>
+<script src="Tiles/Today/Date.js"></script>
 </body>
-
 </html>

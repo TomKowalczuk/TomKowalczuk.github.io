@@ -1,0 +1,30 @@
+html
+{
+    margin: 15px;
+    height: -webkit-fill-available;
+}
+body
+{
+    margin: 0px;
+    background-color: black;
+    height: 100%;
+}
+
+.grid-container
+{
+	display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 5%;
+    height: 100%;
+	 grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+
+.active
+{
+  background-color: #1A1A1A;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 8px;
+}
+

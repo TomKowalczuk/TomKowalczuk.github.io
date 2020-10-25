@@ -1,0 +1,45 @@
+  .music-tile
+  {
+	grid-column: 4;
+	grid-row: 1 / span 2;
+
+  }
+  
+  .music-tile > div
+  {
+	grid-template-columns: 100%;
+	height: -webkit-fill-available;
+	padding: 10%;
+	display: grid;
+    grid-template-rows: 80% 20%;
+    grid-gap: 5%;
+  }
+  
+  #music-info
+  {
+	display: grid;
+	text-align: right;
+  }
+
+  #music-title
+  {
+	font-weight: 700;
+	color: white;
+	float: right;
+	font-size: 55%;
+  }
+  
+  #music-artist
+  {
+	color: rgb(255 255 255 / 70%);
+	float: right;
+	font-size: 45%;
+  }
+  
+  #music-cover
+  {
+	float: right;
+	width: 100%;
+	border-radius: 5px;
+	margin-left: auto;
+  }
