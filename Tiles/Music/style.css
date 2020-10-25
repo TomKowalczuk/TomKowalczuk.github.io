@@ -11,7 +11,7 @@
     height: -webkit-fill-available;
     padding: 10%;
     display: grid;
-    grid-gap: 5%;
+    grid-gap: 2%;
   }
   
   #music-info
@@ -25,14 +25,14 @@
 	font-weight: 700;
 	color: white;
 	float: right;
-	font-size: 2vw;
+	font-size: 1.4vw;
   }
   
   #music-artist
   {
 	color: rgb(255 255 255 / 70%);
 	float: right;
-    font-size: 1.25vw;
+    font-size: 0.8vw;
   }
   
   #music-cover

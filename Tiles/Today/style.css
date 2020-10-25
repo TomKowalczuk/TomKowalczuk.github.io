@@ -1,14 +1,14 @@
 #date
 {
-	font-size: 20px;
     font-weight: 700;
+	font-size: 1.6vw;
     color: rgb(255 255 255 / 70%);
 }
 
 #clock
 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.5vw;
     color: white;
 }
 
