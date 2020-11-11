@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="CSS/style.css">
-<link rel="stylesheet" type="text/css" href="Tiles/Today/style.css">
-<link rel="stylesheet" type="text/css" href="Tiles/Music/style.css">
-<script src="Tiles/Today/Time.js"></script>
-</head>
-<body onload="startTime()">
-
-	<div class="grid-container">
-		
-		<div class="active today-tile">
-			<div>
-				<div id="clock"></div>
-				<div id="date"></div>
-			</div>
-		</div>
-		
-		<div class="active music-tile">
-			<div>
-				<img id="music-cover" src="Tiles/Music/Positions.jpeg">
-				
-				<div id="music-info">
-					<div id="music-title">Positions</div>
-					<div id="music-artist">Ariana Grande</div>
-				</div>
-			</div>
-		</div>
-
-
-</div>
-
-<script src="Tiles/Today/Date.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+ 
+    </head>
+    <body>
+ 
+    <div id="gamepadPrompt"></div>
+ 
+    <script>
+    function canGame() {
+        return "getGamepads" in navigator;
+    }
+ 
+    $(document).ready(function() {
+ 
+        if(canGame()) {
+ 
+            var prompt = "To begin using your gamepad, connect it and press any button!";
+            $("#gamepadPrompt").text(prompt);
+ 
+            $(window).on("gamepadconnected", function() {
+                Notification.requestPermission( function(status) {
+                    console.log(status); // les notifications ne seront affichées que si "autorisées"
+                    var n = new Notification("Gamepad Connected", {body: "Succesfully connected"}); // this also shows the notification
+});
+                console.log("connection event");
+            });
+ 
+            $(window).on("gamepaddisconnected", function() {
+                console.log("disconnection event");
+                $("#gamepadPrompt").text(prompt);
+            });
+ 
+        }
+ 
+    });
+    </script>
+    </body>
 </html>
