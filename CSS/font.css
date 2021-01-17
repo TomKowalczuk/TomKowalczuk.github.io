@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "SF-Pro";
+    src: url("../Font/SF-Pro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SF-Pro";
+    src: url("../Font/SF-Pro-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SF-Pro";
+    src: url("../Font/SF-Pro-Light.otf") format("opentype");
+    font-weight: lighter;
+}
