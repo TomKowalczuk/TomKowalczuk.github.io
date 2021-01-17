@@ -33,7 +33,7 @@ body {
     display: flex;   
     border-top: 2px solid var(--border); 
     backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
 }
 .tab
 {
