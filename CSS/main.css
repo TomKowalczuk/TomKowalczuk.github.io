@@ -4,12 +4,16 @@
     --secondary: #F2F2F7;
     --third: #F9F9F9;
     --border: #B6B6B6;
+    
   }
 
 body {
     -webkit-tap-highlight-color: transparent;
     margin:0;
     background-color: var(--secondary);
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
  }
 
 .active {
