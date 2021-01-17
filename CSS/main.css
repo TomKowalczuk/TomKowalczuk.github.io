@@ -1,6 +1,6 @@
 :root {
     --accent: #FF3B30;
-    --main: #ffffff;
+    --main: #fdfdfdeb;
     --secondary: #F2F2F7;
     --third: #F9F9F9;
     --border: #B6B6B6;
@@ -67,4 +67,12 @@ body {
     background-color: #2196F3;
     justify-content: center;
     align-items: center;
+}
+
+img
+{
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 100%;
+    position: fixed;
+    z-index: -1;
 }
