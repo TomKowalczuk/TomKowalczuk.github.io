@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="84.5" viewBox="0 0 376 84.5">
+  <defs>
+    <filter id="Background" x="0" y="0" width="376" height="84.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="-0.5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tab_Bars" data-name="Tab Bars" transform="translate(0.5 1)">
+    <g id="Tab_Bars_-_Compact_-_Dark_-_4_Tabs" data-name="Tab Bars - Compact - Dark - 4 Tabs">
+      <g id="Backgrounds_-_Toolbar_or_Tab_Bar" data-name="Backgrounds - Toolbar or Tab Bar">
+        <g transform="matrix(1, 0, 0, 1, -0.5, -1)" filter="url(#Background)">
+          <rect id="Background-2" data-name="Background" width="375" height="83" transform="translate(0.5 1)" fill="none" stroke="red" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Tab_Button" data-name="Tab Button">
+        <g id="Tab_Button-2" data-name="Tab Button" transform="translate(305)">
+          <rect id="Frame" width="48" height="49" fill="#fff" opacity="0"/>
+          <g id="Glyph" transform="translate(-3508 -7056)">
+            <rect id="Frame-2" data-name="Frame" width="48" height="32" transform="translate(3508 7058)" fill="rgba(255,255,255,0)"/>
+            <text id="Symbol" transform="translate(3532 7082)" fill="#757575" font-size="22" font-family="SFProText-Regular, SF Pro Text" letter-spacing="0em"><tspan x="-12.053" y="0">􀍠</tspan></text>
+          </g>
+          <text id="Tab_4" data-name="Tab 4" transform="translate(0 34)" fill="#757575" font-size="10" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="-0.024em"><tspan x="11.135" y="10">Tab 4</tspan></text>
+        </g>
+        <g id="Tab_Button-3" data-name="Tab Button" transform="translate(211)">
+          <rect id="Frame-3" data-name="Frame" width="48" height="49" fill="#fff" opacity="0"/>
+          <g id="Glyph-2" data-name="Glyph" transform="translate(-3508 -7056)">
+            <rect id="Frame-4" data-name="Frame" width="48" height="32" transform="translate(3508 7058)" fill="rgba(255,255,255,0)"/>
+            <text id="Symbol-2" data-name="Symbol" transform="translate(3532 7082)" fill="#757575" font-size="22" font-family="SFProText-Regular, SF Pro Text" letter-spacing="0em"><tspan x="-12.584" y="0">􀊫</tspan></text>
+          </g>
+          <text id="Tab_3" data-name="Tab 3" transform="translate(0 34)" fill="#757575" font-size="10" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="-0.024em"><tspan x="11.221" y="10">Tab 3</tspan></text>
+        </g>
+        <g id="Tab_Button-4" data-name="Tab Button" transform="translate(117)">
+          <rect id="Frame-5" data-name="Frame" width="48" height="49" fill="#fff" opacity="0"/>
+          <g id="Glyph-3" data-name="Glyph" transform="translate(-3508 -7056)">
+            <rect id="Frame-6" data-name="Frame" width="48" height="32" transform="translate(3508 7058)" fill="rgba(255,255,255,0)"/>
+            <text id="Symbol-3" data-name="Symbol" transform="translate(3532 7082)" fill="#757575" font-size="22" font-family="SFProText-Regular, SF Pro Text" letter-spacing="0em"><tspan x="-16.21" y="0">􀑮</tspan></text>
+          </g>
+          <text id="Tab_2" data-name="Tab 2" transform="translate(0 34)" fill="#757575" font-size="10" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="-0.024em"><tspan x="11.343" y="10">Tab 2</tspan></text>
+        </g>
+        <g id="Tab_Button-5" data-name="Tab Button" transform="translate(23)">
+          <rect id="Frame-7" data-name="Frame" width="48" height="49" fill="#fff" opacity="0"/>
+          <g id="Glyph-4" data-name="Glyph" transform="translate(-3508 -7056)">
+            <rect id="Frame-8" data-name="Frame" width="48" height="32" transform="translate(3508 7058)" fill="rgba(255,255,255,0)"/>
+            <text id="Symbol-4" data-name="Symbol" transform="translate(3532 7082)" fill="#0a84ff" font-size="22" font-family="SFProText-Regular, SF Pro Text" letter-spacing="0em"><tspan x="-15.404" y="0">􀎶</tspan></text>
+          </g>
+          <text id="Tab_1" data-name="Tab 1" transform="translate(0 34)" fill="#0a84ff" font-size="10" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="-0.024em"><tspan x="12.026" y="10">Tab 1</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

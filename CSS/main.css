@@ -48,45 +48,40 @@ body {
 }
 .tab
 {
+    display: grid;
+    grid-template-columns: auto;
     width: 25%;
     height: 59.4%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .tab div
 {
-    height: 65.31%;
-    font-size: 375%;
+    font-size: 5.8vw;
     font-family: SF-Pro;
     color: var(--accent);
-    top: 15px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
 }
 
 .tab p
 {
-    
-    position: absolute;
-    bottom: 3vh;
-    font-size: 3vw;
+    margin: 0px;
+    font-size: 2.6vw;
     font-family: 'SF-Pro';
     font-weight: bold;
     color: var(--accent);
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    justify-content: center;
-    align-items: center;
-}
+
 
 img
 {
-    width: 100%;
+    width: -webkit-fill-available;
     z-index: -1;
 }
