@@ -59,6 +59,7 @@ body
     font-family: SF-Pro;
     color: var(--disabled);
     display: flex;
+    font-weight: bold;
     justify-content: center;
     align-items: center;
     padding-top: 4px;
