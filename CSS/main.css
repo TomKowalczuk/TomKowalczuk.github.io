@@ -4,8 +4,8 @@
     --secondary: #F2F2F7;
     --third: #fdfdfdeb;
     --border: #B6B6B6;
-    
-  }
+    --disabled: #999999;
+}
 
   @media (prefers-color-scheme: dark) {
     :root {
@@ -14,21 +14,19 @@
         --secondary: #1C1C1E;
         --third:#262626c7;
         --border: #323232;
+        --disabled: #757575;
         
       }
   }
 
-body {
+body 
+{
     -webkit-tap-highlight-color: transparent;
     margin:0;
     background-color: var(--secondary);
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
- }
-
-.active {
-  background-color: #4CAF50;
 }
 
 .tab-bar
@@ -59,7 +57,7 @@ body {
 {
     font-size: 5.8vw;
     font-family: SF-Pro;
-    color: var(--accent);
+    color: var(--disabled);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,10 +70,15 @@ body {
     font-size: 2.6vw;
     font-family: 'SF-Pro';
     font-weight: bold;
-    color: var(--accent);
+    color: var(--disabled);
     display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.active div, .active p
+{
+    color: var(--accent) !important;
 }
 
 
