@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="CSS/main.css">
         <link rel="stylesheet" href="CSS/font.css">
+        <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     </head>
@@ -12,12 +13,28 @@
             <p>Saison 1</p>
         </div>
 
-        <video playsinline="false" autoPictureInPicture="true" autoplay="true" controls width="100%">
 
-            <source src="https://kowalczuk.freeboxos.fr:9187/share/J8MI0NRVR7LSEth_/01-Pilot.mp4"
-                    type="video/x-matroska">
-        
-            Sorry, your browser doesn't support embedded videos.
-        </video>
+        <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="640"
+        height="264"
+        poster="MY_VIDEO_POSTER.jpg"
+        data-setup="{}"
+      >
+        <source src="https://kowalczuk.freeboxos.fr:9187/share/J8MI0NRVR7LSEth_/01-Pilot.mkv" type="video/mp4" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+          >
+        </p>
+      </video>
+    
+      <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+
     </body>
 </html>
