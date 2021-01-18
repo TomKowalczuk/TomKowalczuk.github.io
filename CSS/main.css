@@ -1,6 +1,6 @@
 :root {
     --accent: #FF3B30;
-    --main: #fdfdfdeb;
+    --main: #000000;
     --secondary: #F2F2F7;
     --third: #fcfcfcc7;
     --border: #B6B6B6;
@@ -10,7 +10,7 @@
   @media (prefers-color-scheme: dark) {
     :root {
         --accent: #FF3B30;
-        --main: #000000;
+        --main: #ffffff;
         --secondary: #1C1C1E;
         --third:#262626c7;
         --border: #323232;
@@ -86,7 +86,6 @@ body
 .logo img
 {
     width: 60%;
-    filter: invert(1);
     display: flex;
     margin: 100px auto 20px auto;
 }
@@ -99,5 +98,5 @@ body
     text-align: center;
     font-family: 'SF-Pro';
     font-weight: bolder;
-    color: var(--disabled);
+    color: var(--main);
 }
