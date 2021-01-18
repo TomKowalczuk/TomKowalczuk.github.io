@@ -21,6 +21,7 @@
 
 body 
 {
+    height: 100%;
     -webkit-tap-highlight-color: transparent;
     margin:0;
     background-color: var(--secondary);
@@ -83,20 +84,46 @@ body
     color: var(--accent) !important;
 }
 
+.logo
+{
+    width: 96% !important;
+    display: flex !important;
+    margin: 0% !important;
+}
 .logo img
 {
-    width: 60%;
     display: flex;
-    margin: 100px auto 20px auto;
+    width: 30%;
+    margin: auto 0px auto 30px;
 }
 
 .logo p
 {
 
-    margin: 20px auto 100px auto;  
-    font-size: 80px;
+ 
+    font-size: 30px;
     text-align: center;
     font-family: 'SF-Pro';
     font-weight: bolder;
     color: var(--main);
 }
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 100%;
+
+}
+
+.grid div
+{
+    margin: 2%;
+}
+
+@media (orientation: landscape) {
+    .grid
+    {
+        grid-template-columns: 50% 50%;
+        height: 100%;
+    }
+  }
