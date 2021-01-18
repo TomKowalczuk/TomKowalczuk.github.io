@@ -2,7 +2,7 @@
     --accent: #FF3B30;
     --main: #fdfdfdeb;
     --secondary: #F2F2F7;
-    --third: #fdfdfdeb;
+    --third: #fcfcfcc7;
     --border: #B6B6B6;
     --disabled: #999999;
 }
@@ -47,6 +47,7 @@ body
 .tab
 {
     display: grid;
+    text-decoration: none;
     grid-template-columns: auto;
     width: 25%;
     height: 59.4%;
