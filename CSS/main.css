@@ -83,10 +83,21 @@ body
     color: var(--accent) !important;
 }
 
-
-
-img
+.logo img
 {
-    width: -webkit-fill-available;
-    z-index: -1;
+    width: 60%;
+    filter: invert(1);
+    display: flex;
+    margin: 100px auto 20px auto;
+}
+
+.logo p
+{
+
+    margin: 20px auto 100px auto;  
+    font-size: 80px;
+    text-align: center;
+    font-family: 'SF-Pro';
+    font-weight: bolder;
+    color: var(--disabled);
 }
